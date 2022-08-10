@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.game{
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.tile-row{
+  display: flex;
+  width: fit-content;
+}
+
+.tile{
+  border: 1px solid black;
+  height: fit-content;
+  text-align: center;
+  
+  margin: 4px;
+  padding: 8px;
+}
+
+.tile p{
+  margin: 0px;
+}
+
